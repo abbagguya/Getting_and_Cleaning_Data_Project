@@ -21,7 +21,7 @@ The dataset in UCI_HAR_mean.txt has been processed into a tidy dataset and saved
 
 ### Variables
 
-#### subject    activity                 domain             sensed             direction          mean         
+### subject    activity                 domain             sensed             direction          mean         
  1:  198    LAYING            :990   Length:5940        Length:5940        Length:5940        Min.   :-0.99762  
  2:  198    SITTING           :990   Class :character   Class :character   Class :character   1st Qu.:-0.93140  
  3:  198    STANDING          :990   Mode  :character   Mode  :character   Mode  :character   Median :-0.12974  
