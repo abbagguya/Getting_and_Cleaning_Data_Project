@@ -23,52 +23,45 @@ The dataset in UCI_HAR_mean.txt has been processed into a tidy dataset and saved
 
 UCI_HAR_mean variables:
 
-* subject   activity            domain  sensed      direction  mean         
-* 1         LAYING              time    BodyAcc     X          1st Qu.:-0.93140
-* 2         SITTING             freq    GravityAcc  Y          Median :-0.12974
-* 3         STANDING                    .           Z          Mean   :-0.30898
-* .         WALKING                     .           Mag        3rd Qu.:-0.01192
-* .         WALKING_DOWNSTAIRS          .                      Max.   : 0.97451
-* 30        WALKING_UPSTAIRS            .
+subject(1...30), activity(6 activities), domain(time, freq), sensed(see below), direction(see below), mean(number)
 
 domain, sensed, direction variables have been built from the following variables in the UCI Har dataset (the variable names have been modified silghty for facilitated use in gather and separate functions in the tidyr package):
 
-variable                   class
-subject                    Factor w/ 30 levels "1","2","3","4",.."30"
-activity                   Factor w/ 6 levels "LAYING","SITTING",..
-time_BodyAcc_X_mean        num
-time_BodyAcc_Y_mean        num
-time_BodyAcc_Z_mean        num
-time_GravityAcc_X_mean     num
-time_GravityAcc_Y_mean     num
-time_GravityAcc_Z_mean     num
-time_BodyAccJerk_X_mean    num
-time_BodyAccJerk_Y_mean    num
-time_BodyAccJerk_Z_mean    num
-time_BodyGyro_X_mean       num
-time_BodyGyro_Y_mean       num
-time_BodyGyro_Z_mean       num
-time_BodyGyroJerk_X_mean   num
-time_BodyGyroJerk_Y_mean   num
-time_BodyGyroJerk_Z_mean   num
-time_BodyAcc_Mag_mean      num
-time_GravityAcc_Mag_mean   num
-time_BodyAccJerk_Mag_mean  num
-time_BodyGyro_Mag_mean     num
-time_BodyGyroJerk_Mag_mean num
-freq_BodyAcc_X_mean        num
-freq_BodyAcc_Y_mean        num
-freq_BodyAcc_Z_mean        num
-freq_BodyAccJerk_X_mean    num
-freq_BodyAccJerk_Y_mean    num
-freq_BodyAccJerk_Z_mean    num
-freq_BodyGyro_X_mean       num
-freq_BodyGyro_Y_mean       num
-freq_BodyGyro_Z_mean       num
-freq_BodyAcc_Mag_mean      num
-freq_BodyAccJerk_Mag_mean  num
-freq_BodyGyro_Mag_mean     num
-freq_BodyGyroJerk_Mag_mean num
+subject
+activity
+time_BodyAcc_X_mean
+time_BodyAcc_Y_mean
+time_BodyAcc_Z_mean
+time_GravityAcc_X_mean
+time_GravityAcc_Y_mean
+time_GravityAcc_Z_mean
+time_BodyAccJerk_X_mean
+time_BodyAccJerk_Y_mean
+time_BodyAccJerk_Z_mean
+time_BodyGyro_X_mean
+time_BodyGyro_Y_mean
+time_BodyGyro_Z_mean
+time_BodyGyroJerk_X_mean
+time_BodyGyroJerk_Y_mean
+time_BodyGyroJerk_Z_mean
+time_BodyAcc_Mag_mean
+time_GravityAcc_Mag_mean
+time_BodyAccJerk_Mag_mean
+time_BodyGyro_Mag_mean
+time_BodyGyroJerk_Mag_mean
+freq_BodyAcc_X_mean
+freq_BodyAcc_Y_mean
+freq_BodyAcc_Z_mean
+freq_BodyAccJerk_X_mean
+freq_BodyAccJerk_Y_mean
+freq_BodyAccJerk_Z_mean
+freq_BodyGyro_X_mean
+freq_BodyGyro_Y_mean
+freq_BodyGyro_Z_mean
+freq_BodyAcc_Mag_mean
+freq_BodyAccJerk_Mag_mean
+freq_BodyGyro_Mag_mean
+freq_BodyGyroJerk_Mag_mean
 
 Key processing method functions:
 * starting from mean.data which is a tbl_df with data in the original format with original column variables
