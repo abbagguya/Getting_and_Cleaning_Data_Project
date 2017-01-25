@@ -9,7 +9,7 @@ Based on Human Activity Recognition Using Smartphones Data Set from UCI Machine 
 * activity type (laying, walking, etc.)
 * siganl type (time or frequency domain signal)
 * sensed (e.g. BodyAcceleration, etc)
-* direction (e.g. X, Y, Z directions and Euclidian Magnitude of X, Y, Z, etc.)
+* direction (e.g. X, Y, Z directions and Euclidian Magnitude of the X, Y, Z, directions etc.)
 
 ### Dataset Detail
 The dataset in UCI_HAR_mean.txt has been processed into a tidy dataset and saved by the run_analysis.R script:
