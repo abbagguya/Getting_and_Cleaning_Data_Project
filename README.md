@@ -1,4 +1,4 @@
-### Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
 ## Getting and Cleaning Data Project
 # Getting and Cleaning Data Project
 The R script (run_analysis.R) and data set included in this repo are solutions to the project problem for the Getting and Cleaning Data course.
