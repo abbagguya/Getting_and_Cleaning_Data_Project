@@ -15,5 +15,5 @@ Based on Human Activity Recognition Using Smartphones Data Set from UCI Machine 
 The dataset in UCI_HAR_mean.txt has been processed into a tidy dataset and saved by the run_analysis.R script:
 
 * There is one column variable (mean) that actually has measurement values.
-* Other variables including subject, activity, domain, sensed are all factor variables.
+* Other variables including subject, activity, domain, sensed should be read in as factor variables.
 * The factor variables domain, sensed, and direction have been gathered from the columns of the original data and subsequently separated into meaningful variables, thus resulting in a long (rather than wide) dataset amenable to analyzing.
