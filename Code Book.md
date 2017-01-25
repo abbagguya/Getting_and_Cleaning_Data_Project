@@ -23,7 +23,12 @@ The dataset in UCI_HAR_mean.txt has been processed into a tidy dataset and saved
 
 UCI_HAR_mean variables:
 
-subject(1...30), activity(6 activities), domain(time, freq), sensed(see below), direction(see below), mean(number)
+* subject(1...30)
+* activity(6 activities)
+* domain(time, freq)
+* sensed(see below)
+* direction(see below)
+* mean(number)
 
 domain, sensed, direction variables have been built from the following variables in the UCI Har dataset (the variable names have been modified silghty for facilitated use in gather and separate functions in the tidyr package):
 
