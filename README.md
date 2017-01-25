@@ -19,4 +19,4 @@ The dataset in UCI_HAR_mean.txt has been processed into a tidy dataset and saved
 * The factor variables domain, sensed, and direction have been gathered from the columns of the original data and subsequently separated into meaningful variables, thus resulting in a long (rather than wide) dataset amenable to analyzing.
 
 ### Note
-The tidy dataset UCI_Har_mean.txt includes only the mean data (i.e. std values were left out), because it made little sense to average std data.  However, a second version run_analysis_II.R is included that leaves the std data in, so that a further grouping is possible in terms of stat: mean and std.  Also a second tidy dataset, UCI_Har_mean_II.txt corresponding to it are included.
+The tidy dataset UCI_Har_mean.txt includes only the mean data (i.e. std values were left out), because it made little sense to average std data.  However, a second version run_analysis_II.R is included that leaves the std data in, so that a further grouping is possible in terms of stat: mean and std.  A second tidy dataset, UCI_Har_mean_II.txt processed by run_analysis_II.R is also included.
