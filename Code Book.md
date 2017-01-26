@@ -8,7 +8,7 @@ Based on Human Activity Recognition Using Smartphones Data Set from UCI Machine 
 
 * subject identification (subject number)
 * activity type (laying, walking, etc.)
-* siganl type (time or frequency domain signal)
+* signal type (time or frequency domain signal)
 * sensed (e.g. BodyAcceleration, etc)
 * direction (e.g. X, Y, Z directions and Euclidian Magnitude of the X, Y, Z, directions etc.)
 
